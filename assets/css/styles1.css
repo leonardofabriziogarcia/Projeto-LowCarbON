@@ -109,7 +109,7 @@ body{
 
 #home{
     padding: 2rem 7%;
-    background-color: #1c5f63;
+    background-color: #1b6d71;
 }
 
 .home{
@@ -197,16 +197,16 @@ body{
 .button{
     border: 1px solid black;
     background-color: #739E6F;
+    position: absolute;
     border-radius: 20px;
     font-size: 1.5rem;
-    margin-top: 2rem;
     color: black;
     padding: 13px;
 }
 
 .button:hover{
     background-color: #76ed6e;
-    transform: scale(1.);
+    transform: scale(1.1);
     letter-spacing: 1px;
 }
 
@@ -240,6 +240,79 @@ body{
     padding: 1rem 0;
     line-height: 1.8;
 }
+
+
+
+/* CONTATO */
+
+
+.contact .row{
+    display: flex;
+    background-color: #4D4D4D;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact .row .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    border: var(--border);
+}
+
+.contact .row form .inputBox span{
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 1rem;
+    padding-left: 2rem;
+    border: none;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background: none;
+}
+
+.submit{
+    border: 1px solid black;
+    background-color: #739E6F;
+    border-radius: 20px;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: black;
+    padding: 13px;
+}
+
+.submit:hover{
+    background-color: #76ed6e;
+    transform: scale(1.1);
+    letter-spacing: 1px;
+}
+
 
 
 @media (max-width:1035px){
