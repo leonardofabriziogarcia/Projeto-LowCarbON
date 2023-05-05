@@ -313,7 +313,57 @@ body{
     letter-spacing: 1px;
 }
 
+/* RODAPE */
 
+.footer{
+    background: black ;
+    text-align: center;
+}
+
+.footer .share{
+    padding: 1rem 0;
+}     
+
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: .1rem solid #fff;
+    margin: .3rem;
+    border-radius: 50%;
+}   
+
+.footer .share a:hover{
+    transform: scale(1.1);
+}
+
+.footer .links{
+    display: flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.footer .links a{
+    padding: .7rem 2rem;
+    color: #fff;
+    border: .1rem solid #fff;
+    font-size: 1.5rem;
+}
+
+.footer .links a:hover{
+    background-color: #739E6F;
+}
+
+.footer .credit{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #fff;
+    padding: 1.5rem;
+}
 
 @media (max-width:1035px){
 
