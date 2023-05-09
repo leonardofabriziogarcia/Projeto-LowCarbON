@@ -72,15 +72,23 @@ body{
     color: #fff;
 }
 
-.header .navbar a:hover{
+
+
+.header .navbar a:hover {
     color: #739E6F;
     border-bottom: .1rem solid #739E6F;
     padding-bottom: .5rem;
 }
 
+.header .navbar i:hover{
+    color: #739E6F;
+}
+
 .header .navbar i{
     font-size: 1.8rem;
     color: #fff;
+    border: 1px solid black;
+    padding: 10px 0 10px  0;
 }
 
 .header .icons div{
