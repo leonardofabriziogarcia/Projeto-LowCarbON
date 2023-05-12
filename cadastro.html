@@ -18,27 +18,27 @@
     <div class="container">
         <div class="title">Faça seu Cadastro</div>
         <div class="form">
-            <form action="#">
+            <form action="connect.php" method="post">
                 <div class="user-details">
                     <div class="input-box">
                         <span class="details">Email</span>
-                        <input type="text" placeholder="Digite seu email" required>
+                        <input type="text" placeholder="Digite seu email" id="email" name="email" required>
                     </div>
                     <div class="input-box">
                         <span class="details">Senha</span>
-                        <input type="text" placeholder="Digite sua senha" required>
+                        <input type="text" placeholder="Digite sua senha" id="password" name="password" required>
                     </div>
                     <div class="input-box">
                         <span class="details">Nome de Usuário</span>
-                        <input type="text" placeholder="Digite seu nome de usuário" required>
+                        <input type="text" placeholder="Digite seu nome de usuário" id="user_name" name="user_name" required>
                     </div>
                     <div class="input-box">
                         <span class="details">Confirmar senha</span>
-                        <input type="text" placeholder="Digite sua senha novamente" required>
+                        <input type="text" placeholder="Digite sua senha novamente" name ="confirm_password" required>
                     </div>
                 </div>
                 <div class="button">
-                    <a href="/tela_login.html"><input type="button" value="Criar Conta"></a>
+                    <input type="submit" value="Criar Conta">
                 </div>
             </form>
         </div>
