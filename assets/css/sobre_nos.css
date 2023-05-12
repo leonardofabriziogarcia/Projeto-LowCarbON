@@ -1,0 +1,161 @@
+.logo{
+    width: 25rem;
+}
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+
+.header{
+    background:#4D4D4D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .navbar a{
+    margin: 1.3rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+
+
+.header .navbar a:hover {
+    color: #739E6F;
+    border-bottom: .1rem solid #739E6F;
+    padding-bottom: .5rem;
+}
+
+
+.header .navbar i{
+    font-size: 1.8rem;
+    color: #fff;
+    border: 1px solid black;
+    padding: 10px 0 10px  0;
+}
+
+.header .icons div{
+    color:#fff ;
+    cursor:pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover{
+    color: #739E6F;
+}
+
+#menu-btn{
+    display: none;
+}
+
+
+
+/* SOBRENOS */
+
+.home{
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/fotoparque1.jpg);
+    background-size: cover ;
+    background-position: center;
+
+}
+
+.escrita h1{
+    font-size: 6rem;
+    color: #739E6F;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+span{
+    color: #fff;
+}
+
+.escrita{
+    padding-left: 10rem;
+    margin-right: 5rem;
+    font-size: 1.5rem;
+    margin-bottom: 15rem;
+
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width:1035px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding: 1.5rem 2rem;
+    }
+
+    section{
+        padding: 2rem;
+    }
+}
+
+@media (max-width:819px){
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        right:-100%;
+        background: #fff;
+        width:30rem;    
+        height: calc(100vh - 8rem);   
+    }
+
+    .header .navbar.active{
+        right:0;
+    } 
+
+    .header .navbar a{
+        color: #4D4D4D;
+        display: block;
+        margin:1.5rem;
+        padding: .5rem;
+        font-size: 2rem; 
+    }
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+}
