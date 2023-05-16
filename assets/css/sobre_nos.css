@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+::root{
+    --border:.1rem solid rgba(255,255,255,.3)
+}
 .logo{
     width: 25rem;
 }
@@ -21,7 +34,10 @@ html::-webkit-scrollbar-thumb{
     border-radius: 5rem;
 }
 
+body{
+    background: #bcd6b9;
 
+}
 .header{
     background:#4D4D4D;
     display: flex;
