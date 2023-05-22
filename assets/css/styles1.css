@@ -35,7 +35,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background: #bcd6b9;
+    background: #fffef9;
 }
 
 .heading{
@@ -53,7 +53,7 @@ body{
 }
 
 .header{
-    background:#4D4D4D;
+    background:#fffef9;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,7 +69,7 @@ body{
 .header .navbar a{
     margin: 1.3rem;
     font-size: 1.8rem;
-    color: #fff;
+    color: #8e8c8c;
 }
 
 
@@ -114,7 +114,7 @@ body{
 
 #home{
     padding: 2rem 7%;
-    background-color: #1b6d71;
+    background-color: #bcd6b9;
 }
 
 .home{
@@ -163,7 +163,7 @@ body{
 }
 
 .btn:hover{
-    background-color: #76ed6e;
+    background-color: #83e07c;
     transform: scale(1.1);
     letter-spacing: 1px;
 }
@@ -173,7 +173,7 @@ body{
 
 .about .row{
     display: flex;
-    background: black ;
+    background: #739E6F ;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -220,7 +220,7 @@ body{
 
 .carbon .row{
     display: flex;
-    background: black ;
+    background: #739E6F ;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -253,7 +253,7 @@ body{
 
 .contact .row{
     display: flex;
-    background-color: #4D4D4D;
+    background-color: #739E6F;
     flex-wrap: wrap;
     gap: 1rem;
 }
