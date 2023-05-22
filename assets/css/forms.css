@@ -8,6 +8,10 @@
     --primary-100: #F4FAFA;
     --primary-300: #DFEBEB;
     --text-color: #10131C;
+    --white: #EFECDD;
+    --black: #4D4D4D;
+    --lightgreen: #BBD6B8;
+    --green: #739E6F;
   
     font-size: 62.5%;
   }
@@ -17,11 +21,10 @@
   }
   
   body {
-    background-color: var(--primary-300);
+    background-image: url("/assets/images/background.png");
+    background-size: cover;
     color: var(--text-color);
-  
     font-size: 1.6rem;
-  
     display: grid;
     place-items: center;
     height: 100vh;
@@ -32,15 +35,14 @@
   }
   
   form {
-    background-color: white;
-  
+    background-color: var(--white);
+    max-width: 700px;
     width: min(73rem, 87%);
     margin: auto;
-  
-    padding: 9rem;
-    border-radius: 3.2rem;
-  
-    box-shadow: 0 0 4.8rem rgb(0 0 0 / .1);
+    padding: 25px 30px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-shadow: 10px 12px 40px var(--black)
   }
   
   form * {
@@ -54,15 +56,41 @@
   fieldset legend {
     font-size: 3.2rem;
     font-family: "Libre Baskerville", serif;
+  }  
+
+  h1{
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
+    color: var(--black);
   }
-  
+
   /* radio */
   .radio-wrapper {
     border-radius: 1.6rem;
     background-color: var(--primary-100);
     border:1px solid #BBC1C1;
     padding: 2.4rem;
+    transition: all 0.3s;
+    cursor: pointer;
   }
+  
+  #next{
+    background-color: var(--green);
+    color: var(--white);
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 12px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .radio-wrapper:hover{
+    background-color: var(--lightgreen);
+  }
+
   
   .radio-wrapper > div {
     display: flex;
@@ -95,6 +123,7 @@
   .radio-wrapper p {
     margin-top: 1rem;
     padding-left: 3.8rem;
+    color: var(--black);
   }
   
   legend + .radio-wrapper {
