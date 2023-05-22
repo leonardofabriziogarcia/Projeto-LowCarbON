@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-100: #F4FAFA;
+    --primary-300: #DFEBEB;
+    --text-color: #10131C;
+  
+    font-size: 62.5%;
+  }
+  
+  a {
+    color: var(--text-color);
+  }
+  
+  body {
+    background-color: var(--primary-300);
+    color: var(--text-color);
+  
+    font-size: 1.6rem;
+  
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  
+  body * {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  form {
+    background-color: white;
+  
+    width: min(73rem, 87%);
+    margin: auto;
+  
+    padding: 9rem;
+    border-radius: 3.2rem;
+  
+    box-shadow: 0 0 4.8rem rgb(0 0 0 / .1);
+  }
+  
+  form * {
+    font-size: 1.4rem;
+  }
+  
+  fieldset {
+    border: 0;
+  }
+  
+  fieldset legend {
+    font-size: 3.2rem;
+    font-family: "Libre Baskerville", serif;
+  }
+  
+  /* radio */
+  .radio-wrapper {
+    border-radius: 1.6rem;
+    background-color: var(--primary-100);
+    border:1px solid #BBC1C1;
+    padding: 2.4rem;
+  }
+  
+  .radio-wrapper > div {
+    display: flex;
+    gap: .8rem;
+  }
+  
+  .radio-wrapper input[type="radio"] {
+    appearance: none;
+  
+    border: 1px solid #BBC1C1;
+    height: 2.8rem;
+    width: 2.8rem;
+    border-radius: 50%;
+  
+    background-color: white;
+  }
+  
+  .radio-wrapper input[type="radio"]:checked {
+    background-image: radial-gradient(white 35%, black 40%);
+  }
+  
+  .radio-wrapper:not(:has(:checked)) {
+    opacity: .6;
+  }
+  
+  .radio-wrapper label {
+    font-size: 2rem;
+  }
+  
+  .radio-wrapper p {
+    margin-top: 1rem;
+    padding-left: 3.8rem;
+  }
+  
+  legend + .radio-wrapper {
+    margin-top: 6rem;
+  }
+  
+  .radio-wrapper + .radio-wrapper,
+  .checkbox-wrapper + .checkbox-wrapper {
+    margin-top: 2.4rem;
+  }
