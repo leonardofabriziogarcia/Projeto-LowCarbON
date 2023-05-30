@@ -39,7 +39,7 @@ body{
 
 }
 .header{
-    background:#4D4D4D;
+    background:#fffef9;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,7 +55,7 @@ body{
 .header .navbar a{
     margin: 1.3rem;
     font-size: 1.8rem;
-    color: #fff;
+    color: #8e8c8c;
 }
 
 

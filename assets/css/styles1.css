@@ -41,7 +41,7 @@ body{
 .heading{
     margin-top: 2.5rem;
     text-align: center;
-    color: #fff;
+    color: #bcd6b9;
     text-transform: uppercase;
     padding-bottom: 3.5rem;
     font-size: 4rem;
@@ -138,15 +138,16 @@ body{
     font-size: 3rem;
     text-transform: uppercase;
     color: #fff;
+    
+    
 }
 
 .home .content p{
     font-size: 2rem;
-    font-weight: lighter;
     text-transform: none;
     line-height: 1.8;
     padding: 1rem 0;
-    color: black;   
+    color: #4D4D4D;   
 }
 
 .btn{
@@ -155,15 +156,16 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #739E6F;
     border-radius: 50px;
+    margin-top: 4%;
     justify-content: center;
     font-weight: bolder;
     font-size: 2rem;
-    color: black;
+    color: #343131;
     padding: 2rem 4rem;
 }
 
 .btn:hover{
-    background-color: #83e07c;
+    background-color: #a8f3a2;
     transform: scale(1.1);
     letter-spacing: 1px;
 }
@@ -193,24 +195,24 @@ body{
 }
 
 .about .row .content p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #4D4D4D;
-    padding: 3rem 0;
+    padding: 2rem 0;
     line-height: 1.8;
 }
 
 .button{
-    border: 1px solid black;
+    border: 1px solid #343131;
     background-color: #739E6F;
     position: absolute;
     border-radius: 20px;
     font-size: 1.5rem;
-    color: black;
+    color: #343131;
     padding: 13px;
 }
 
 .button:hover{
-    background-color: #76ed6e;
+    background-color: #a8f3a2;
     transform: scale(1.1);
     letter-spacing: 1px;
 }
@@ -240,9 +242,9 @@ body{
 }
 
 .carbon .row .content p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #4D4D4D;
-    padding: 1rem 0;
+    padding: 2rem 0;
     line-height: 1.8;
 }
 
@@ -281,7 +283,7 @@ body{
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background-color: black;
+    background-color: #bcd6b9;
     border: var(--border);
 }
 
@@ -303,17 +305,17 @@ body{
 }
 
 .submit{
-    border: 1px solid black;
+    border: 1px solid #343131;
     background-color: #739E6F;
-    border-radius: 20px;
+    border-radius: 25px;
     margin-top: 2rem;
-    font-size: 1.5rem;
-    color: black;
-    padding: 13px;
+    font-size: 1.8rem;
+    color: #343131;
+    padding: 15px;
 }
 
 .submit:hover{
-    background-color: #76ed6e;
+    background-color: #a8f3a2;
     transform: scale(1.1);
     letter-spacing: 1px;
 }
@@ -321,7 +323,7 @@ body{
 /* RODAPE */
 
 .footer{
-    background: black ;
+    background: #bcd6b9 ;
     text-align: center;
 }
 
