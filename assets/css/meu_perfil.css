@@ -11,9 +11,9 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
     outline: none;
     border: none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -32,7 +32,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background-color: #000;
+    background-color: #bcd6b9;
 }
 
 html::-webkit-scrollbar-thumb{
@@ -40,7 +40,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background-color: #111;
+    background-color: #bcd6b9;
     overflow: hidden;
     padding-left: 35rem;
 }
@@ -50,9 +50,13 @@ section{
     padding: 1rem;
 }
 
+#menu{
+    color: black;
+}
+
 .btn{
     padding: .7rem 3rem;
-    background-color: #333;
+    background-color: #739E6F;
     color: #fff;
     cursor: pointer;
     margin-top: 1rem;
@@ -66,7 +70,9 @@ section{
 }
 
 .btn:hover{
-    background-color: var(--green);
+    background-color: #fff;
+    color: #739E6F;  
+    transform: scale(1.1);
 }
 
 .heading{
@@ -74,7 +80,7 @@ section{
     margin:0 6rem;
     font-size: 4rem;
     padding: 1rem;
-    border-bottom: .1rem solid #fff4;
+    border-bottom: .3rem solid #fff4;
     color: #fff;
 
 }
@@ -111,15 +117,18 @@ header .user img{
 header .user .name{
     font-size: 3.5rem;
     color: #fff;
+    padding: 0 0 7rem 0;
 }
 
 header .user .post{
     font-size: 2rem;
     color: #eee;
+    padding: 7rem 0 0 0;
 }
 
 header .navbar{
-    width: 100%;
+    width: 80%;
+    text-decoration: none;
 }
 
 header .navbar .ul{
@@ -129,8 +138,8 @@ header .navbar .ul{
 
 header .navbar ul li a{
     display: block;
-    padding: 1rem;
-    margin: 1.5rem 0;
+    padding: 1.2rem;
+    margin: 1.8rem 0;
     background-color: #fff;
     font-size: 2rem;
     border-radius: 5rem;
@@ -142,7 +151,7 @@ header .navbar ul li a{
 
 
 header .navbar ul li a:hover{
-    background:var(--green);
+    background:#bcd6b9;
 }
 
 #menu{
