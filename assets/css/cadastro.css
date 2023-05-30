@@ -82,10 +82,10 @@ form .button{
 }
 
 form .button input{
-    width: 100%;
+    width: 40rem;    
     display: flex;
-    height: 100%;
-    justify-content: center;
+    height: 3.3rem;
+    justify-content: center ;    
     align-items: center;
     outline: none;
     color: var(--black);
@@ -103,6 +103,13 @@ form .button input:hover{
     background-color: var(--lightgreen);
 }
 
+@media(max-width:672px){ 
+    form .button input{
+        width: 33rem;
+        transition:.5s ease  ;
+    }
+}
+
 @media (max-width: 584px){
     .container{
         max-width: 100%;
@@ -111,6 +118,10 @@ form .button input:hover{
     form .user-details .input-box{
         margin-bottom: 15px;
         width: 100%;
+    }
+
+    form  .button input{
+        width: 28rem;
     }
 
     .container form .user-details{
@@ -122,4 +133,16 @@ form .button input:hover{
         width: 0;
     }
 
+}
+
+@media (max-width:508px){
+    form .button input{
+        width: 23rem;
+    }
+}
+
+@media (max-width:458px) {
+    form .button input{
+        width: 19rem;
+    }
 }
