@@ -76,12 +76,12 @@ form .user-details .input-box{
     border-color: var(--green);
 }
 
-form .button{
+form .sub{
     height: 45px;
     margin: 45px 0;   
 }
 
-form .button input{
+form .sub{
     width: 40rem;    
     display: flex;
     height: 3.3rem;
@@ -97,7 +97,7 @@ form .button input{
     border-radius: 12px;
 }
 
-form .button input:hover{
+form .sub:hover{
     transition: all 0.5s ease;
     cursor: pointer;
     background-color: var(--lightgreen);
