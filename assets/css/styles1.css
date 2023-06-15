@@ -95,13 +95,15 @@ body{
     margin-left: 2rem;
 }
 
-.header .icons div:hover{
-    color: #739E6F;
-}
-
 #menu-btn{
     display: none;
+    color: #343131
 }
+
+#menu-btn:hover{
+    color: #739E6F
+}
+
 
 
 
@@ -113,7 +115,7 @@ body{
 
 
 #home{
-    padding: 2rem 7%;
+    padding: 0.02rem 3%;
     background-color: #bcd6b9;
 }
 
@@ -124,9 +126,9 @@ body{
 }
 
 .logocompleto img{
-    width: 110%;
-    margin-left: 12%;
-    height: 100vh;
+    width: 130%;
+    /* margin-left: 9%; */
+    height: 110vh;
 }
 
 .home .content{
@@ -203,7 +205,7 @@ body{
 
 .button{
     border: 1px solid #343131;
-    background-color: #739E6F;
+    background-color: #a8f3a2;
     position: absolute;
     border-radius: 20px;
     font-size: 1.5rem;
@@ -212,7 +214,6 @@ body{
 }
 
 .button:hover{
-    background-color: #a8f3a2;
     transform: scale(1.1);
     letter-spacing: 1px;
 }
@@ -306,7 +307,7 @@ body{
 
 .submit{
     border: 1px solid #343131;
-    background-color: #739E6F;
+    background-color: #a8f3a2;
     border-radius: 25px;
     margin-top: 2rem;
     font-size: 1.8rem;
@@ -357,7 +358,7 @@ body{
 .footer .links a{
     padding: .7rem 2rem;
     color: #fff;
-    border: .1rem solid #fff;
+    border: .1rem solid black;
     font-size: 1.5rem;
 }
 

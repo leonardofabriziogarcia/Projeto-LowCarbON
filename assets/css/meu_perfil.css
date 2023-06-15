@@ -237,6 +237,13 @@ header .navbar ul li a:hover{
     text-align: center;
     padding: 2rem;
     margin: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.about .row .counter .box:hover{
+    transform: scale(1.06);
+   background-color: #4d4d4d;
 }
 
 .about .row .counter .box span{
