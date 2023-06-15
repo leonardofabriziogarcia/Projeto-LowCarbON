@@ -64,68 +64,24 @@
     color: var(--black);
   }
 
-  /* radio */
-  .radio-wrapper {
-    border-radius: 1.6rem;
-    background-color: var(--primary-100);
-    border:1px solid #BBC1C1;
-    padding: 2.4rem;
-    transition: all 0.3s;
-    cursor: pointer;
-  }
-  
-  .radio-wrapper:hover{
-    background-color: var(--lightgreen);
-  }
-
-  
-  .radio-wrapper > div {
+  .title h1{
+    justify-content: center;
     display: flex;
-    gap: .8rem;
-  }
-  
-  .radio-wrapper input[type="radio"] {
-    appearance: none;
-  
-    border: 1px solid #BBC1C1;
-    height: 2.8rem;
-    width: 2.8rem;
-    border-radius: 50%;
-  
-    background-color: white;
-  }
-  
-  .radio-wrapper input[type="radio"]:checked {
-    background-image: radial-gradient(white 35%, black 40%);
-  }
-  
-  .radio-wrapper:not(:has(:checked)) {
-    opacity: .6;
-  }
-  
-  .radio-wrapper label {
-    font-size: 2rem;
-  }
-  
-  .radio-wrapper p {
-    margin-top: 1rem;
-    padding-left: 3.8rem;
-    color: var(--black);
-  }
-  
-  legend + .radio-wrapper {
-    margin-top: 6rem;
-  }
-  
-  .radio-wrapper + .radio-wrapper,
-  .checkbox-wrapper + .checkbox-wrapper {
-    margin-top: 2.4rem;
+    align-items: center;
+    font-size: 30px;
   }
 
-  #next{
+    span{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: var(--green);
+  }
+
+  #veja-mais input{
     height: 6rem;
     width: 100%;
-    outline: none;
     border-radius: 14px;
     padding-left: 15px;
     font-size: 16px;
@@ -135,7 +91,7 @@
     margin-top: 2.5rem;
   }
 
-  #next:hover{
+  #veja-mais input:hover{
     transition: all 0.5s ease;
     cursor: pointer;
     background-color: var(--lightgreen);

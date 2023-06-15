@@ -25,6 +25,7 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar{
@@ -52,6 +53,7 @@ section{
 
 #menu{
     color: black;
+    font-size: 3rem;
 }
 
 .btn{
@@ -171,7 +173,7 @@ header .navbar ul li a:hover{
     align-items: center;
     flex-flow: column;
     padding:0 15rem;
-}
+    }
 
 .home h3{
     font-size: 2.5rem;
@@ -230,7 +232,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter .box{
-    width: 20rem;
+    width: 25rem;
     background-color: #222;
     text-align: center;
     padding: 2rem;
@@ -242,19 +244,40 @@ header .navbar ul li a:hover{
     color: var(--green);
 }
 
+#subtitle{
+    margin-top: 0;
+}
+
 .about .row .counter .box h3{
 font-size: 2rem;
+margin-top: 2rem;
 color: #fff;
 }
 
+#title{
+    margin-top: 2rem;
+}
 
+.resultado h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 3.7rem;
+    color: #4D4D4D;
+}
 
+.palmeiras{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: var(--green);
+    font-weight: 700;
+}
 
-
-
-
-
-
+.emissao{
+    margin-top: 8rem;
+}
 
 /* media queries */
 @media (max-width: 1200px){
