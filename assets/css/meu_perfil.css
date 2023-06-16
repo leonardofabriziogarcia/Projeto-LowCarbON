@@ -11,10 +11,9 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
     outline: none;
     border: none;
-    transition: all .2s linear;
+    /* transition: all .2s linear; */
 }
 
 ::selection{
@@ -83,14 +82,36 @@ section{
     font-size: 4rem;
     padding: 1rem;
     border-bottom: .3rem solid #fff4;
-    color: #fff;
-
+    color: var(--green);
+    
 }
 
 .heading span {
-    color: var(--green);
+    color: #fff;
 }
 
+
+.actions ul li{
+    display: flex;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 550;
+    font-family: 'Poppins', sans-serif;
+}
+
+.actions ul{
+    margin-left: 6rem;
+    margin-top: 4rem;
+    
+}
+
+
+img{
+    display: flex;
+    margin-top: -6rem;
+    width: 40%;
+    margin-left: 27.3rem;       
+}
 
 header{
     position: fixed;
@@ -133,13 +154,13 @@ header .navbar{
     text-decoration: none;
 }
 
-header .navbar .ul{
+header .navbar ul{
     list-style: none;
-    padding:1rem 3rem;
 }
 
 header .navbar ul li a{
     display: block;
+    font-family: 'Poppins', sans-serif;
     padding: 1.2rem;
     margin: 1.8rem 0;
     background-color: #fff;
@@ -211,18 +232,6 @@ header .navbar ul li a:hover{
     padding-left: 6rem;
 }
 
-.about .row .info h3{
-    font-size: 2rem;
-    color: var(--green);
-    padding: 1rem 0;
-    font-weight: normal;
-}
-
-.about .row .info h3 span{
-    color: #eee;
-    padding:0 .5rem;
-
-}
 
 .about .row .counter{
     flex: 1 1 48rem;

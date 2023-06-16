@@ -49,11 +49,9 @@
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
         import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js";
 
-        document.getElementById("submit").onclick=function redirect()
-        {
-            window.location.assign("index1.html")
+        function redirect(){
+            window.location.assign("tela_login.html")
         }
-        
 
     // Your web app's Firebase configuration
         const firebaseConfig = {
