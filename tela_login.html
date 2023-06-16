@@ -23,19 +23,38 @@
                 <div class="user-details">
                     <div class="input-box">
                         <span class="details">Nome de usuário</span>
-                        <input type="text" placeholder="Digite seu email" required>
+                        <input type="text" placeholder="Digite seu email"  id="email" required>
                     </div>
                     <div class="input-box">
                         <span class="details">Senha</span>
-                        <input type="text" placeholder="Digite sua senha" required>
+                        <input type="password" placeholder="Digite sua senha" id="password" required>
                     </div>
                 </div>
                 <div class="button">
-                    <a href="/index1.html"><input type="button" value="Entrar"></a>
+                    <input type="submit" value="Entrar" onClick="auth()">
                 </div>
             </form>
         </div>
     </div>
+
+    <script>
+        function auth(){
+            var email = document.getElementById("email").value;
+            var senha = document.getElementById("password").value;
+            if(email=="helenapaniagua@gmail.com" && senha=="12345"){
+                window.location.assign("index1.html");
+                alert("Login realizado com sucesso");
+            }
+            else if(email=="leonardogarcia@outlook.com" && senha=="12345"){
+                window.location.assign("index1.html");
+                alert("Login realizado com sucesso")
+            }
+            else{
+                alert("Email ou senha incorretos");
+                return;
+            }
+        }
+    </script>
 
 </body>
 </html>

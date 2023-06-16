@@ -49,6 +49,12 @@
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
         import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js";
 
+        document.getElementById("submit").onclick=function redirect()
+        {
+            window.location.assign("index1.html")
+        }
+        
+
     // Your web app's Firebase configuration
         const firebaseConfig = {
             apiKey: "AIzaSyAdK84p34ybc1NVOvk9cxO1bX3-tMbGn1Q",
@@ -93,7 +99,9 @@
 
             });
                 alert("Cadastro realizado com sucesso!");
+                redirect()
             })
+
             </script>
     </body>
 </html>
